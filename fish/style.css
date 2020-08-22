@@ -1,0 +1,23 @@
+table, tr, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th {
+    width: 100px;
+    background-color: gray;
+}
+
+td { 
+    text-align: center;
+}
+
+/* Style alternate rows using different colors */
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd) {
+    background-color: darkcyan;
+}
+

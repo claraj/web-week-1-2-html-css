@@ -1,18 +1,16 @@
 body {
-    font-family: 'Gill Sans', sans-serif;
     background-color: darkgoldenrod;
+    font-family: 'Gill Sans';
     color: #444444;
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 img {
-    border-radius: 10px;
-    height: auto;
-    max-width: 100%;
+    border-radius: 15px;
 }
 
 li {
